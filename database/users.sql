@@ -6,6 +6,7 @@ SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
+-- Create a database named `user_db` and import the file.
 --Database: `users_db`
 
 
