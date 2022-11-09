@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
+/* CSS for main body */
+
+.body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +91,10 @@ body{
     transform: scale(0.98);
 }
 
-.nav{
-    position: absolute;
-    margin-top: 0px;
-}
+
+/* CSS for header */
+
+
+
+
+/* CSS for footer */
