@@ -7,6 +7,9 @@
     <title>Contact Us</title>
 </head>
 <body>
+    <?php
+    include "/xampp/htdocs/Project-SMART/components/nav.php";
+    ?>
     <h2>Contact us at this page</h2>
     
 </body>

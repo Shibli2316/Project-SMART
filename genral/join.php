@@ -5,19 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/join.css">
+    <link rel="stylesheet" href="../css/join.css">
     <title>Join US</title>
 </head>
 
 <body>
     <!-- Nav bar -->
-<header>
-    <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-    </ul>
-</header>
+<?php include '../components/nav.php'; ?>
 
     <!-- Main body -->
     <div class="body">
@@ -25,37 +19,37 @@
             <!-- Card 1 -->
             <div class="card">
                 <div class="imgBx">
-                    <img src="images/studying.png" alt="">
+                    <img src="../images/studying.png" alt="">
                 </div>
                 <div class="contentBx">
                     <h2>Student</h2>
                     <p>Access time table, notices and other related details by logging in here. <br>
                         To login with your studnet's account click on the button below</p>
-                    <a href="student/studentLogin.html"><span>Click here</span></a>
+                    <a href="../student/studentLogin.php"><span>Click here</span></a>
                 </div>
             </div>
             <!-- Card 2 -->
             <div class="card">
                 <div class="imgBx">
-                    <img src="images/male.png" alt="">
+                    <img src="../images/male.png" alt="">
                 </div>
                 <div class="contentBx">
                     <h2>Teacher</h2>
                     <p>Access time table, notices and other related details by logging in here. <br>
                         To login with your teacher's account click on the button below</p>
-                    <a href="teacher/teacherLogin.html"><span>Click here</span></a>
+                    <a href="../teacher/teacherLogin.php"><span>Click here</span></a>
                 </div>
             </div>
             <!-- Card 3 -->
             <div class="card">
                 <div class="imgBx">
-                    <img src="images/graduated.png" alt="">
+                    <img src="../images/graduated.png" alt="">
                 </div>
                 <div class="contentBx">
                     <h2>Alumni</h2>
                     <p>Access blogs, events and other related details by logging in here. <br>
                         To login with your alumni's account click on the button below</p>
-                    <a href="alumni/alumniLogin.html"><span>Click here</span></a>
+                    <a href="../alumni/alumniLogin.php"><span>Click here</span></a>
                 </div>
             </div>
         </div>

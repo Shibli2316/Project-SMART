@@ -17,26 +17,23 @@ echo "<!DOCTYPE html>
 </head>
 
 <body>
-    <nav class='navbar navbar-expand-lg bg-dark'>
+    <nav class='navbar navbar-expand-lg bg-dark navbar-dark'>
         <div class='container-fluid'>
-            <a class='navbar-brand' href='#'>Navbar</a>
+            <a class='navbar-brand' href='../genral/index.php'>SMART</a>
             <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav'
                 aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
                 <span class='navbar-toggler-icon'></span>
             </button>
             <div class='collapse navbar-collapse' id='navbarNav'>
-                <ul class='navbar-nav'>
+                <ul class='navbar-nav ms-auto'>
                     <li class='nav-item'>
-                        <a class='nav-link active' aria-current='page' href='../index.html'>Home</a>
+                        <a class='nav-link' href='../genral/contact.php'>Contact Us</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link' href='contact.html'>Contact Us</a>
+                        <a class='nav-link' href='../genral/about.html'>About</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link' href='about.html'>About</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='nav-link' href='join.html'>Join</a>
+                        <a class='nav-link' href='../genral/join.php'>Join</a>
                     </li>
                 </ul>
             </div>
