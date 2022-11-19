@@ -1,2 +1,14 @@
 hasing of password
 adding prepared statements to prevent sql attacs
+
+
+
+add to restricted pages this code of php
+<?php
+
+session_start();
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
+    header("location: login.php");
+    exit;
+}
+?>

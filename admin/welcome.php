@@ -1,4 +1,4 @@
 <?php
 
-echo "Welcome alumni";
+echo "Welcome Admin";
 ?>
