@@ -1,0 +1,2 @@
+hasing of password
+adding prepared statements to prevent sql attacs

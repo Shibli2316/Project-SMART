@@ -1,12 +1,12 @@
 <?php
 
-// session_start();
+
 include '_dbconnect.php';
 
 $username = $_POST['username'];
 $pass = $_POST['password'];
 
-$sql = "SELECT * FROM alumni WHERE username = '$username'";
+$sql = "SELECT * FROM teacher WHERE username = '$username'";
 $result = mysqli_query($conn, $sql);
 $num = mysqli_num_rows($result);
    

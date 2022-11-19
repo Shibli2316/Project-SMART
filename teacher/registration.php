@@ -4,10 +4,10 @@
 if ($_SERVER['REQUEST_METHOD']=='POST'){
     include "_dbconnect.php";
     $username = $_POST["username"];
-    $year = $_POST['year'];
+    $eid = $_POST['eid'];
     $password = $_POST["password"];
     $cpassword = $_POST["cpassword"];
-    $existSql="SELECT * FROM `alumni` WHERE username= '$username'";
+    $existSql="SELECT * FROM `teacher` WHERE username= '$username'";
     $result=mysqli_query($conn, $existSql);
     $numExistRows= mysqli_num_rows($result);
     if ($numExistRows>0){
@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
     else{
     if(($password==$cpassword)){
         // $hash=password_hash($password, PASSWORD_DEFAULT);
-        $sql="INSERT INTO alumni (username, password, year) VALUES ('$username', '$password', '$year')";
+        $sql="INSERT INTO teacher (username, password, eid) VALUES ('$username', '$password', '$eid')";
         
         $result=mysqli_query($conn, $sql);
         if ($result){

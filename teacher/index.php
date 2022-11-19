@@ -34,7 +34,7 @@
             </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
-              <input type="text" placeholder="Batch" name="year"/>
+              <input type="text" placeholder="Employee Id" name="eid"/>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
