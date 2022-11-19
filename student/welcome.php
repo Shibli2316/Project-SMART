@@ -1,4 +1,5 @@
 <?php
+session_start();
 
-echo "Welcome alumni";
+echo "Welcome " .$_SESSION['username'];
 ?>
