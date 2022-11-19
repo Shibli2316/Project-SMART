@@ -25,7 +25,7 @@
                     <h2>Student</h2>
                     <p>Access time table, notices and other related details by logging in here. <br>
                         To login with your studnet's account click on the button below</p>
-                    <a href="../student/studentLogin.php"><span>Click here</span></a>
+                    <a href="../student/index.php"><span>Click here</span></a>
                 </div>
             </div>
             <!-- Card 2 -->
@@ -37,7 +37,7 @@
                     <h2>Teacher</h2>
                     <p>Access time table, notices and other related details by logging in here. <br>
                         To login with your teacher's account click on the button below</p>
-                    <a href="../teacher/teacherLogin.php"><span>Click here</span></a>
+                    <a href="../teacher/index.php"><span>Click here</span></a>
                 </div>
             </div>
             <!-- Card 3 -->
@@ -49,7 +49,7 @@
                     <h2>Alumni</h2>
                     <p>Access blogs, events and other related details by logging in here. <br>
                         To login with your alumni's account click on the button below</p>
-                    <a href="../alumni/alumniLogin.php"><span>Click here</span></a>
+                    <a href="../alumni/index.php"><span>Click here</span></a>
                 </div>
             </div>
         </div>
