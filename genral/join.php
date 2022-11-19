@@ -11,9 +11,12 @@
 
 <body>
     <!-- Nav bar -->
-<?php include '../components/nav.php'; ?>
+<?php 
+include "/xampp/htdocs/Project-SMART/components/nav.php";
+?>
 
     <!-- Main body -->
+    
     <div class="body">
         <div class="container">
             <!-- Card 1 -->
