@@ -4,9 +4,8 @@ $showError = false;
 include '_dbconnect.php';
 
 $username = $_POST['username'];
-$pass = $_POST['password'];
-
 $username = mysqli_real_escape_string($conn, $username);
+$pass = $_POST['password'];
 
 $sql = "SELECT * FROM alumni WHERE username = '$username'";
 $result = mysqli_query($conn, $sql);
