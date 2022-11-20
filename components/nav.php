@@ -36,7 +36,7 @@ echo "<!DOCTYPE html>
                         <a class='nav-link' href='../genral/contact.php'>Contact Us</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link' href='../genral/about.html'>About</a>
+                        <a class='nav-link' href='../genral/about.php'>About</a>
                     </li>";
                     if(!$loggedin){
                     echo "<li class='nav-item'>

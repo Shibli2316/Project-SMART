@@ -51,9 +51,9 @@ echo "Welcome " .$_SESSION['username'];
           <li class="tm-nav-item">
             <a href="#" data-linkid="3" data-align="left" class="tm-nav-link">Contact</a>
           </li>
-          <!-- <li class="tm-nav-item active">
+          <li class="tm-nav-item active">
               <a href="../../genral/logout.php" data-align="right" class="tm-nav-link">Logout</a>
-            </li> -->
+            </li>
         </ul>
       </nav>
 
@@ -277,7 +277,7 @@ echo "Welcome " .$_SESSION['username'];
       <footer>
         || Down the memory lane ||
         By <b>Hamza</b> and <b>Shibli</b> || <br>
-        Images by Ahmad Raza Shibli
+        Images by Ahmad Raza Shibli and Shonez
 
       </footer>
     </div>
