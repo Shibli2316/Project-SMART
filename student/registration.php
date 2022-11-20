@@ -4,6 +4,7 @@
 if ($_SERVER['REQUEST_METHOD']=='POST'){
     include "_dbconnect.php";
     $username = $_POST["username"];
+    $username = mysqli_real_escape_string($conn, $username);
     $roll = $_POST['roll'];
     $password = $_POST["password"];
     $cpassword = $_POST["cpassword"];
