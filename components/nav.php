@@ -37,6 +37,9 @@ echo "<!DOCTYPE html>
                     </li>
                     <li class='nav-item'>
                         <a class='nav-link' href='../genral/about.php'>About</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a class='nav-link' href='../genral/notice.php'>Notice</a>
                     </li>";
                     if(!$loggedin){
                     echo "<li class='nav-item'>
