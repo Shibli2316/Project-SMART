@@ -19,7 +19,8 @@ if ($num == 1){
             session_start();
             $_SESSION['loggedin']=true;
             $_SESSION['username']=$username;
-            header('location: welcome.php');
+            
+            header('location: timetable.php');
         }
         else{
             $showError = "Invalid Password";

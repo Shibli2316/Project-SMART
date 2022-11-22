@@ -17,12 +17,13 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
     else{
     if(($password==$cpassword)){
         // $hash=password_hash($password, PASSWORD_DEFAULT);
-        $sql="INSERT INTO students (username, password, roll) VALUES ('$username', '$password', '$roll')";
+        $sql="INSERT INTO students (username, password, sem) VALUES ('$username', '$password', '$roll')";
         
         $result=mysqli_query($conn, $sql);
         if ($result){
             $_SESSION['username'] = $username;
-            header('location: welcome.php');
+            
+            header('location: timetable.php');
             $showAlert = true;
         }
     } 

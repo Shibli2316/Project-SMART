@@ -33,8 +33,8 @@
               <input type="text" placeholder="Username" name="username"/>
             </div>
             <div class="input-field">
-              <i class="fas fa-envelope"></i>
-              <input type="text" placeholder="Roll Number" name="roll"/>
+              <i class="fas fa-graduation-cap"></i>
+              <input type="text" placeholder="Semister" name="roll"/>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>

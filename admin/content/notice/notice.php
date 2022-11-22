@@ -8,7 +8,7 @@ $delete = false;
 
 // Connecting to the database
 
-include '_dbconnect.php';
+include '/xampp/htdocs/Project-SMART/admin/_dbconnect.php';
 
 if (isset($_GET['delete'])) {
     $sno = $_GET['delete'];

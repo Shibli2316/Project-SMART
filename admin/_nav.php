@@ -27,8 +27,13 @@
             Time Table
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Add</a></li>
-            <li><a class="dropdown-item" href="#">Edit</a></li>
+            <li><a class="dropdown-item" href="#">B.Sc Sem1</a></li>
+            <li><a class="dropdown-item" href="#">B.Sc Sem2</a></li>
+            <li><a class="dropdown-item" href="#">B.Sc Sem3</a></li>
+            <li><a class="dropdown-item" href="#">B.Sc Sem4</a></li>
+            <li><a class="dropdown-item" href="#">B.Sc Sem5</a></li>
+            <li><a class="dropdown-item" href="#">B.Sc Sem6</a></li>
+            
           </ul>
         </li>
         <li class="nav-item dropdown">

@@ -1,5 +1,5 @@
 hasing of password
-adding prepared statements to prevent sql attacs
+
 
 
 
@@ -13,15 +13,17 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
 }
 ?>
 
-logout of alumni
+
 
 back button in about page
 
 
 logout - redirect join - session destroy 
-student and teacher time table
+student Change time table based on semister
+teacher time table
 notice module
 admin module
 
 profile view phone add, name edit (plane text edit)
 dashboard admin + stats 
+nav for different users
