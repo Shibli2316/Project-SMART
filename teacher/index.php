@@ -33,7 +33,7 @@
               <input type="text" placeholder="Username" name="username"/>
             </div>
             <div class="input-field">
-              <i class="fas fa-envelope"></i>
+              <i class="fas fa-pen-nib"></i>
               <input type="text" placeholder="Employee Id" name="eid"/>
             </div>
             <div class="input-field">

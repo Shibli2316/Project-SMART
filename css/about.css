@@ -14,7 +14,7 @@ body{
 }
 
 body:before{
-    content: 'About';
+    content: 'SMART';
     position: fixed;
     top: 50%;
     left: 50%;

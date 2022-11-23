@@ -19,4 +19,7 @@ teacher time table
 put star in form and change icon
 contact us
 profile view phone add, name edit (plane text edit)
-dashboard admin + stats 
+
+
+
+improve info notice page

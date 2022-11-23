@@ -53,6 +53,8 @@ if (!$conn) {
 <body>
     <?php
 include 'nav.php';
+$user = $_SESSION['username'];
+echo "<h1 class='mx-4 my-3'> Welcome " .$_SESSION['username'] . "</h1>";
 ?>
 <h1 class="mx-5">Time-Table for <?php echo date('l')?></h1>
     <div class="container my-4">

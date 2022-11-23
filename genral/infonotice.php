@@ -1,14 +1,17 @@
-<?php
-session_start();
-if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
-    header("location: ../../index.php");
-    exit;
-}
-?>
 
 <?php  
 
-include "../../_dbconnect.php";
+$server="localhost";
+$username="root";
+$password="";
+$databse="admin_db";
+
+$conn=mysqli_connect($server, $username, $password, $databse);
+if (!$conn){
+    die("Error ". mysqli_connect_error());
+}
+
+
 $title = $_GET['title'];
 $sql = "SELECT * FROM notice WHERE `title` = '$title'";
 $res = mysqli_query($conn, $sql);
@@ -36,7 +39,7 @@ $num = mysqli_num_rows($res);
 
 <body>
     <?php
-include "../../_nav.php";
+include "nav.php";
 echo "<h1 mx-2 my-2>Title: <i>".$title ."</i></h1>";
 echo "<p mx-2 my-4>".$row['description']. "</p>";
 echo "<br>".$row['tstamp'];
