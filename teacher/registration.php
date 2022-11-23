@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
         $result=mysqli_query($conn, $sql);
         if ($result){
             $_SESSION['username'] = $username;
-            header('location: welcome.php');
+            header('location: timetable.php');
             $showAlert = true;
         }
     } 

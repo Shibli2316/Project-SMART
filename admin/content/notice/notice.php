@@ -133,6 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       </div>";
     }
     ?>
+    <?php include '../../_nav.php';?>
     <div class="container my-4">
         <h2>Add Notice</h2>
         <form action="notice.php" method="post">

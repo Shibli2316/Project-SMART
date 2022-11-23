@@ -150,7 +150,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <?php
 
-    require '/xampp/htdocs/Project-SMART/admin/_nav.php'
+    include '/xampp/htdocs/Project-SMART/admin/_nav.php';
 
     ?>
 

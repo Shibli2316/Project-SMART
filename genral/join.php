@@ -12,7 +12,7 @@
 <body>
     <!-- Nav bar -->
 <?php 
-include "/xampp/htdocs/Project-SMART/components/nav.php";
+include "nav.php";
 ?>
 
     <!-- Main body -->

@@ -1,7 +1,4 @@
-<?php
 
-// include "/xampp/htdocs/Project-SMART/components/navbar/header2.php";
-echo "
 <!DOCTYPE html>
 <html lang='en'>
 
@@ -15,6 +12,7 @@ echo "
 </head>
 
 <body>
+
     <section>
         <div class='box'>
             <h2 data-jarallax-element='0 -200'>About Us</h2>
@@ -65,7 +63,7 @@ echo "
                     <img src='../images/Snapchat-422098502.jpg' alt='myphoto' class='jarallax-img'>
                 </div>
                 <div class='content' data-jarallax-element='-200 0'>
-                    <p class='aboutme'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur suscipit ipsa repudiandae perferendis, soluta labore mollitia iusto delectus quae odio animi, officia esse dolore, consequatur vero veritatis molestias quam aliquam distinctio doloribus fugit autem amet non fugiat. Possimus tenetur illum quam explicabo. Hic, recusandae? Quod quos libero deserunt iste tenetur.</p>
+                    <p class='aboutme'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur suscipit ipsa repudiandae perferendis, soluta labore mollitia iusto delectus quae odio animi, officia esse dolore, consequatur vero veritatis molestias quam aliquam distinctio doloribus fugit autem amet non fugiat. Possimus tenetur illum quam explicabo. Hic, recusandae? Quod quos libero deserunt iste tenetur. Click <a href="index.php" style="text-decoration: none; color: blanchedalmond;">here</a> to go back to home page</p>
                 </div>
             </div>
         </div>
@@ -80,5 +78,4 @@ echo "
     </script>
 </body>
 
-</html>";
-?>
+</html>

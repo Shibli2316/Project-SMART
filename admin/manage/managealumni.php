@@ -78,7 +78,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <body>
 
+
     <?php
+    include '../_nav.php';
     if ($delete) {
         echo "<div class='alert alert-success alert-dismissible fade show' role='alert'>
         <strong>Success!</strong> Your note has been deleted successfully.

@@ -52,7 +52,7 @@ if (!$conn) {
 
 <body>
     <?php
-include '/xampp/htdocs/Project-SMART/components/nav.php';
+include 'nav.php';
 ?>
 <h1 class="mx-5">Time-Table for <?php echo date('l')?></h1>
     <div class="container my-4">

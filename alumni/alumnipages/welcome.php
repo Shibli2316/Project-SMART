@@ -5,7 +5,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
     exit;
 }
 // include '../components/nav.php';
-echo "Welcome " .$_SESSION['username'];
+echo "We hope to see you again " .$_SESSION['username'];
 ?>
 
 
@@ -52,7 +52,7 @@ echo "Welcome " .$_SESSION['username'];
             <a href="#" data-linkid="3" data-align="left" class="tm-nav-link">Contact</a>
           </li>
           <li class="tm-nav-item active">
-              <a href="../../genral/logout.php" data-align="right" class="tm-nav-link">Logout</a>
+              <a href="xampp\htdocs\Project-SMART\genral\logout.php" data-align="right" class="tm-nav-link">Logout</a>
             </li>
         </ul>
       </nav>

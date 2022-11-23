@@ -2,6 +2,6 @@
 session_start();
 session_unset();
 session_destroy();
-header("location: join.php");
+header("location: \Project-SMART\genral\join.php");
 exit;
 ?>

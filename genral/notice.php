@@ -7,6 +7,6 @@
     <title>Notices</title>
 </head>
 <body>
-<?php include "/xampp/htdocs/Project-SMART/components/nav.php"; ?>
+<?php include "nav.php"; ?>
 </body>
 </html>

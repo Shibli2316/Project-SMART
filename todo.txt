@@ -10,15 +10,13 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
 }
 ?>
 
-back button in about page
-Common pages like home and contact 
+
+
 
 logout - redirect join - session destroy 
 student Change time table based on semister
 teacher time table
-notice module
-admin module
-
+put star in form and change icon
+contact us
 profile view phone add, name edit (plane text edit)
 dashboard admin + stats 
-nav for different users
