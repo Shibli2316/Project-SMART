@@ -1,4 +1,13 @@
 <?php
+session_start();
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
+    header("location: ../../../login.php");
+    exit;
+}
+?>
+
+
+<?php
 
 
 // INSERT INTO `notes` (`sno`, `title`, `description`, `tstamp`) VALUES (NULL, 'Buy time', 'Time is the most important of all buy some when u meet others.', current_timestamp());

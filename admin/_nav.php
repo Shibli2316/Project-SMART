@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang='en'>
 <head>
@@ -14,14 +15,14 @@
 <body>
 <nav class='navbar navbar-expand-lg bg-dark navbar-dark'>
   <div class='container-fluid'>
-    <a class='navbar-brand' href='welcome.php'>SMART</a>
+    <a class='navbar-brand' href='dashboard.php'>SMART</a>
     <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
       <span class='navbar-toggler-icon'></span>
     </button>
     <div class='collapse navbar-collapse' id='navbarSupportedContent'>
       <ul class='navbar-nav mb-2 mb-lg-0 ms-auto mx-5'>
         <li class='nav-item'>
-          <a class='nav-link active' aria-current='page' href='/Project-Smart/admin/welcome.php'>Dashboard</a>
+          <a class='nav-link active' aria-current='page' href='/Project-Smart/admin/dashboard.php'>Dashboard</a>
         </li>
         <li class='nav-item dropdown'>
           <a class='nav-link dropdown-toggle' role='button' data-bs-toggle='dropdown' aria-expanded='false'>

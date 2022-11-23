@@ -20,7 +20,7 @@ if ($num == 1){
             $_SESSION['loggedin']=true;
             $_SESSION['username']=$username;
             
-            header('location: _nav.php');
+            header('location: dashboard.php');
         }
         else{
             $showError = "Invalid Password";

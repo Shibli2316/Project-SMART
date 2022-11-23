@@ -1,4 +1,12 @@
 <?php
+session_start();
+if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
+    header("location: ../../login.php");
+    exit;
+}
+?>
+
+<?php
 
 // INSERT INTO `notice` (`sno`, `title`, `description`, `tstamp`) VALUES ('1', 'asdfg', 'qwertyuiop', current_timestamp());
 
