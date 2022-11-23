@@ -13,8 +13,6 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
 
 form validation
 
-student Change time table based on semister
-
 profile view phone add, name edit (plane text edit)
 
 improve info notice page
