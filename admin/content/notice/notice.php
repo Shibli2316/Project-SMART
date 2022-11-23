@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
-    header("location: ../../login.php");
+    header("location: ../../index.php");
     exit;
 }
 ?>
@@ -116,6 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     </div>
 
     <?php
+    include '../../_nav.php';
     if ($insert) {
         echo "<div class='alert alert-success alert-dismissible fade show' role='alert'>
         <strong>Success!</strong> The Notice has been saved successfully.
@@ -141,7 +142,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       </div>";
     }
     ?>
-    <?php include '../../_nav.php';?>
+ 
     <div class="container my-4">
         <h2>Add Notice</h2>
         <form action="notice.php" method="post">

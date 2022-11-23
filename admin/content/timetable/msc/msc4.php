@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
-    header("location: ../../../login.php");
+    header("location: ../../../index.php");
     exit;
 }
 ?>
@@ -157,14 +157,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
     </div>
 
-
-    <?php
-
-    require '/xampp/htdocs/Project-SMART/admin/_nav.php'
-
-    ?>
-
-    <?php
+<?php
+include '/xampp/htdocs/Project-SMART/admin/_nav.php';
     if ($insert) {
         echo "<div class='alert alert-success alert-dismissible fade show' role='alert'>
         <strong>Success!</strong> Time table added successfully.
@@ -191,7 +185,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
     ?>
     <div class="container my-4">
-        <h2>Add Time table for B.Sc Sem 4</h2>
+        <h2>Add Time table for M.Sc Sem 4</h2>
         <form action="msc4.php" method="post">
             <div class="mb-3">
                 <label for="title" class="form-label">Period</label>

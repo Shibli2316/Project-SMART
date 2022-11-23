@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
-    header("location: ../../../login.php");
+    header("location: ../../../index.php");
     exit;
 }
 ?>
@@ -157,14 +157,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
     </div>
 
-
-    <?php
-
-    require '/xampp/htdocs/Project-SMART/admin/_nav.php'
-
-    ?>
-
-    <?php
+<?php
+include '/xampp/htdocs/Project-SMART/admin/_nav.php';
     if ($insert) {
         echo "<div class='alert alert-success alert-dismissible fade show' role='alert'>
         <strong>Success!</strong> Time table added successfully.

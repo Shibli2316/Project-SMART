@@ -30,19 +30,19 @@
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" name="username"/>
+              <input type="text" placeholder="Username" name="username" required/>
             </div>
             <div class="input-field">
               <i class="fas fa-pen-nib"></i>
-              <input type="text" placeholder="Employee Id" name="eid"/>
+              <input type="text" placeholder="Employee Id" name="eid" required/>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" name="password"/>
+              <input type="password" placeholder="Password" name="password" required/>
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Confirm Password" name="cpassword"/>
+              <input type="password" placeholder="Confirm Password" name="cpassword" required/>
             </div>
             <input type="submit" class="btn" value="Sign up" />
           </form>
