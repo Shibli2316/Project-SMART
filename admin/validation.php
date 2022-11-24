@@ -14,7 +14,7 @@ $num = mysqli_num_rows($result);
 
 if ($num == 1){
     while($row=mysqli_fetch_assoc($result)){
-        if (password_verify($pass, $row['password'])){
+        if ($pass == $row['password']){
 
             session_start();
             $_SESSION['loggedin']=true;
@@ -56,7 +56,7 @@ else{
 
 if ($showError){
     echo '<div class="alert alert-danger alert-success fade show" role="alert">
-    <strong>Error! </strong>'. $showError.' <br>Click <a href="welcome.php">here</a> to try again
+    <strong>Error! </strong>'. $showError.' <br>Click <a href="index.php">here</a> to try again
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>';
 }
