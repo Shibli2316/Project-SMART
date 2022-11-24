@@ -18,10 +18,10 @@
             <h2 data-jarallax-element='0 -200'>SMART</h2>
             <div class='container'>
                 <div class='imgBx jarallax'>
-                    <img src='../images/improved.jpg' alt='myphoto' class='jarallax-img'>
+                    <img src='../images/Snapchat-1047723913.jpg' alt='myphoto' class='jarallax-img'>
                 </div>
                 <div class='content' data-jarallax-element='-200 0'>
-                    <p class='aboutme'>Persuing our bachlors from <b>Aligarh Muslim University</b>, we are passionate <strong><i>pro</i></strong>grammers who love to <em>build</em> and <em>break</em> things. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quibusdam adipisci corrupti ipsa minima. Dolore, praesentium libero quidem nisi quaerat dolores. Magnam quisquam quasi blanditiis sapiente ipsam optio quidem tenetur.</p>
+                    <p class='aboutme'>Everyday, students are occupied by a lot of things, exams, assignments friends and a lot more. At times we miss small details about the things that happens on a daily basis. To tackel such problem we present you <strong><i>SMART</i></strong>. Its the new way of remember the small stuff.</p>
                 </div>
             </div>
         </div>
@@ -32,13 +32,10 @@
             <h2 data-jarallax-element='0 200'>Our Motive</h2>
             <div class='container'>
                 <div class='imgBx jarallax'>
-                    <img src='../images/updated7.jpg' alt='myphoto' class='jarallax-img'>
+                    <img src='../images/updated71.jpg' alt='myphoto' class='jarallax-img'>
                 </div>
                 <div class='content' data-jarallax-element='-200 0'>
-                    <p class='aboutme'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit odit illo distinctio sint cumque numquam facere quibusdam id! Non ratione debitis alias nostrum consectetur expedita voluptatibus asperiores possimus a vitae tenetur excepturi ipsa accusamus magnam saepe necessitatibus ex molestiae, incidunt nobis sunt nulla aut velit aperiam eum. Non, ab voluptate!
-                    JOIN US 
-
-                    </p>
+                    <p class='aboutme'>During the start of the semister, there was a lot of confusion relating time table. Not just for students but also teachers missed a lot of classes. To tackel this problem we developed the <strong>Dynamic Time Table</strong>. With the help of this project the teacher and students will be be notified about the changes in the time table instantly. Feeling good? <a href="join.php" style="color: blanchedalmond;"><i>Join Us</i></a></p>
                 </div>
             </div>
         </div>
@@ -49,14 +46,10 @@
             <h2 data-jarallax-element='0 -200'>the SMART work</h2>
             <div class='container'>
                 <div class='imgBx jarallax'>
-                    <img src='../images/Snapchat-22034180.jpg' alt='myphoto' class='jarallax-img'>
+                    <img src='../images/Snapchat-422098502.jpg' alt='myphoto' class='jarallax-img'>
                 </div>
                 <div class='content' data-jarallax-element='-200 0'>
-                    <p class='aboutme'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque inventore officiis accusantium maiores laborum placeat facere, modi nemo perspiciatis sint. Fugit accusamus perspiciatis animi nam voluptates. Nam illo recusandae, odit quisquam cum vero dolorem sed adipisci maxime, repellendus consequatur error quo, consectetur voluptatibus. Alias odit delectus iusto, aperiam odio vel!
-
-                    notice contact join
-
-                    </p>
+                    <p class='aboutme'>We have developed various modules like admin, teacher, student and alumni. They all have their own functionality. In addition to it we have a <a href="noticegenral.php" style="color: blanchedalmond;"><strong><i>Notice</i></strong></a> module that is open to all. As we belive that information should be free and fast moving. We have kept the design minimal to avoid complexity in navigation too.</p>
                 </div>
             </div>
         </div>
@@ -64,13 +57,13 @@
     
     <section>
         <div class='box'>
-            <h2 data-jarallax-element='0 200'>End Result</h2>
+            <h2 data-jarallax-element='0 200'>The Cynicals</h2>
             <div class='container'>
                 <div class='imgBx jarallax'>
-                    <img src='../images/Snapchat-422098502.jpg' alt='myphoto' class='jarallax-img'>
+                    <img src='../images/improved.jpg' alt='myphoto' class='jarallax-img'>
                 </div>
                 <div class='content' data-jarallax-element='-200 0'>
-                    <p class='aboutme'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur suscipit ipsa repudiandae perferendis, soluta labore mollitia iusto delectus quae odio animi, officia esse dolore, consequatur vero veritatis molestias quam aliquam distinctio doloribus fugit autem amet non fugiat. Possimus tenetur illum quam explicabo. Hic, recusandae? Quod quos libero deserunt iste tenetur. Click <a href="about.php" style="text-decoration: none; color: blanchedalmond;">here</a> to know about us</p>
+                    <p class='aboutme'>We developed a full fledged web application that is capable of displaying information accross the modules. It took us more than 100 hours to develop it and to know more about our synical nature click <a href="about.php" style="text-decoration: none; color: blanchedalmond;">here</a></p>
                 </div>
             </div>
         </div>

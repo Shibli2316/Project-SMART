@@ -14,7 +14,7 @@ $num = mysqli_num_rows($result);
 
 if ($num == 1){
     while($row=mysqli_fetch_assoc($result)){
-        if ($pass == $row['password']){
+        if (password_verify($pass, $row['password'])){
 
             session_start();
             $_SESSION['loggedin']=true;

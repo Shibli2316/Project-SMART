@@ -1,5 +1,3 @@
-hasing of password
-
 add to restricted pages this code of php
 <?php
 
@@ -11,8 +9,5 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] != true) {
 ?>
 
 
-form validation
 
 profile view phone add, name edit (plane text edit)
-
-improve info notice page

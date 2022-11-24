@@ -16,8 +16,8 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
     }
     else{
     if(($password==$cpassword)){
-        // $hash=password_hash($password, PASSWORD_DEFAULT);
-        $sql="INSERT INTO students (username, password, sem) VALUES ('$username', '$password', '$roll')";
+        $hash=password_hash($password, PASSWORD_DEFAULT);
+        $sql="INSERT INTO students (username, password, sem) VALUES ('$username', '$hash', '$roll')";
         
         $result=mysqli_query($conn, $sql);
         if ($result){

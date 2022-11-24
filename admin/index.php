@@ -175,7 +175,7 @@ body {
 }
 
     </style>
-    <title>Document</title>
+    <title>Admin Login</title>
 </head>
 <body>
 
