@@ -11,6 +11,13 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
     $existSql="SELECT * FROM `students` WHERE username= '$username'";
     $result=mysqli_query($conn, $existSql);
     $numExistRows= mysqli_num_rows($result);
+    if(strlen($passord)<5){
+        echo '<div class="alert alert-danger alert-success fade show" role="alert">
+        <strong>Error! </strong>Password too Short <br>Click <a href="index.php">here</a> to try again
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>';
+    }
+    else{
     if ($numExistRows>0){
         $showError = "Username already exists";
     }
@@ -30,6 +37,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
     else{
         $showError = "Passwords do not match";
     }
+}
 }
 }
 ?>
