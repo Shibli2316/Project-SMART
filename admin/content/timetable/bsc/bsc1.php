@@ -246,7 +246,7 @@ include '/xampp/htdocs/Project-SMART/admin/_nav.php';
             <td>" . $row['subject'] . "</td>
             <td>" . $row['teacher'] . "</td>
             <td>" . $row['location'] . "</td>
-            <td> <button class='edit btn btn-sm btn-primary' id=" . $row['sno'] . ">Edit</button> <button class='delete btn btn-sm btn-primary' id=d" . $row['sno'] . ">Delete</button>  </td>
+            <td> <button class='edit btn btn-sm btn-primary' id=" . $row['sno'] . ">Edit</button> <button class='delete btn btn-sm btn-primary' id=" . $row['sno'] . ">Delete</button>  </td>
             </tr>";
                 }
                 ?>
