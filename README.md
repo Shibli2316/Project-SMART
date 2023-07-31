@@ -21,7 +21,6 @@ I hope this is what you were looking for. Let me know if you have any other ques
 
 - [Shibli](https://github.com/Shibli2316)
 
-
 ## Badges
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
@@ -31,7 +30,7 @@ I hope this is what you were looking for. Let me know if you have any other ques
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
+See [Contribution](https://contributing.md/) for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
